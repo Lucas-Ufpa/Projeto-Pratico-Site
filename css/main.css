@@ -1,0 +1,105 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto; /*remoção da barra horoizontal 2*/
+/* https://necolas.github.io/normalize.css/ */
+}
+
+.menu-principal {
+width: 100%; /*largura*/
+background-color: 	#3b5998; /*cor de fundo*/
+height: 60px;/*altura*/
+    }
+
+main{ 
+margin: 0 auto; /*margem*/
+width: 1200px; /*largura*/ 
+position: relative;/*posição*/
+}
+
+.logo{
+margin-left: 9%; /* aula 4 */
+float: left; /*flutuador*/
+width: 40%; /*largura*/
+padding: 16px; /*preenchimento*/
+}
+
+.redes-sociais ul li{
+margin-left: 20px; /*margem esquerda*/
+display: inline-block; /*mostrar - bloco embutido*/
+float: left; /*flutuador*/
+list-style: none; /*estilo de lista - nenhum remover apontadores*/
+}
+
+.redes-sociais{
+width: 30%; /*largura*/
+float: right; /*flutuador*/
+}
+/* ================================================================= */
+.cabecalho-2{ /*segunda parte 2*/
+background-color: 	#8b9dc3;
+width: 980px;/* width: 100%; */
+margin: 0 auto;
+padding: 16px;
+/* border-bottom: 3px solid #efefef; para definir uma borda*/
+}
+/* segunda parte 6 */
+.menu-urls{
+border-bottom: 3px solid #efefef;
+height: 80px;
+}
+.menu-secundario ul li{ /*segunda parte 3*/
+display: inline-block;  /*ajustar na horizontal */
+color:	#8b9dc3;
+margin-left: 15px; /* espaçamento */
+height: 50px /* aula 4 */
+;
+
+}
+.menu-secundario ul li a{ /*segunda parte 4*/
+color:#efefef;
+text-decoration: none; /* remover sublinhado */
+font-size: 20px; /*tamanho da fonte*/
+text-transform:uppercase; /*capitalize/lowercase-minusculas/upercase-maiusculas*/
+}
+.menu-secundario{ /*geral*/
+width: 70%;
+float: left;
+}
+.pesquisar{
+width: 30%;
+float: right;
+text-align: center;/*centralizar*/
+}
+.pesquisar input{
+background-image: url('../img/icone-search.png');
+background-repeat: no-repeat;
+background-position: 96%;
+border: 1px solid #d6d6d6;
+height: 26px;
+padding: 7px;
+margin-top: 10px;
+width: 190px;
+}
+.col-100{
+background-color: #8b9dc3;
+width: 100%;
+float: left;
+position: relative;
+}
+/* segunda parte 5*/ 
+
+ul{
+    padding: 0px!important;/* resetar o padding na mao*/
+    }
+
+/* ==================aula 4================================= */
+/* flutuar-ao passar o mouse dar uma cor diferente */
+.menu-secundario ul li a:hover{
+color:#00BAC6;
+}
+.menu-secundario ul li:hover{
+/* border-bottom: 3px dotted #00BAC6; */
+/* border-bottom: 3px dashed #00BAC6; */
+border-bottom: 3px solid #00BAC6;
+}
