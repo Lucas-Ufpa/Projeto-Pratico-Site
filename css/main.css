@@ -140,18 +140,41 @@ right: 10%;
 width: 100%!important;
 }
 /* estilizar os botões redondos e mudar a cor ao passar*/
-ul.slick-dots li button{
+/* ul.slick-dots li button{
 display: inline-block;
 font-size: 0px;
 border: 3px solid #ffffff;
 border-radius: 50%;
 width: 20px;
 height: 20px;
-/* background-color: #00BAC6; */
+/* background-color: #00BAC6;
 }
 ul.slick-dots li.slick-active{
 background-color: #00BAC6;
 }
 .slick-list{
 width: 100%!important;
+} */
+.slick-dots li button{
+font-size: 0px;
+border: 5px solid white;
+width: 26px;
+height: 26px;
+background: transparent;
+border-radius: 50%;
+cursor: pointer;
+}
+.slick-dots li{
+display: inline-block; /*alinhar em blocos*/
+padding-left: 10px; /*distancia entre os botoes*/
+}
+.slick-dots{
+margin: 0 auto; /*alinhar ao centro*/
+width: 50%;
+position: absolute;
+left: 45%;
+top: 380px;
+}
+li.slick-active button{
+background: #8B9DC3;
 }
